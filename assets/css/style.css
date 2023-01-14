@@ -684,11 +684,15 @@ section {
   padding: 0;
 }
 
+#portfolio{
+  background: #f5f8fd;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 #services{
-  background: #f5f8fd;
+  background: #ffffff;
 }
 
 .services .icon-box {
