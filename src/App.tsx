@@ -13,7 +13,7 @@ import VerserTaxe from './pages/VerserTaxe';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/ApprentisCite">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
