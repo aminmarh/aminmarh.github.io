@@ -90,7 +90,7 @@ const Home = () => {
                 partenaires qui partagent leur expérience et leur vision de l'alternance.
               </p>
               <a
-                href="../../public/videos/Podcast_Jingle_Cover.mp4"
+                href={`${import.meta.env.BASE_URL}videos/Podcast_Jingle_Cover.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center font-medium text-paris-red hover:text-red-700"
@@ -100,7 +100,7 @@ const Home = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="../../public/images/Podcast1.png"
+                src={`${import.meta.env.BASE_URL}images/Podcast1.png`}
                 alt="Podcast recording"
                 className="w-full rounded-lg shadow-lg"
               />
