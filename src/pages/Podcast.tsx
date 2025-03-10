@@ -1,30 +1,38 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { PlayCircle, Mic, Headphones, Share } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { PlayCircle } from 'lucide-react';
 
 const episodes = [
   {
     title: "Ep 1 - Qu’est-ce que la taxe d’apprentissage et pourquoi est-elle essentielle ?",
     guest: "Responsable du service taxe d’apprentissage",
-    link: `${import.meta.env.BASE_URL}videos/Podcast_Jingle_Cover.mp4`,
+    link: `${import.meta.env.BASE_URL}videos/Podcast_Ep1.mp4`,
+  },
+  {
+    title: "Ep 2 - Le parcours d’un étudiant en alternance : challenges et réussites",
+    guest: "Étudiant en alternance",
+    link: `${import.meta.env.BASE_URL}videos/Podcast_Ep2.mp4`,
+  },
+  {
+    title: "Ep 3 - Le rôle du maître d’apprentissage : accompagner et former",
+    guest: "Maître d’apprentissage d’une entreprise partenaire",
+    link: `${import.meta.env.BASE_URL}videos/Podcast_Ep3.mp4`,
+  },
+  {
+    title: "Ep 4 - Comment bien choisir son entreprise d’accueil ?",
+    guest: "Responsable RH ou recruteur",
+    link: `${import.meta.env.BASE_URL}videos/Podcast_Ep4.mp4`,
+  },
+  {
+    title: "Ep 5 - Les erreurs à éviter en alternance",
+    guest: "Tuteur académique ou ancien alternant",
+    link: `${import.meta.env.BASE_URL}videos/Podcast_Ep5.mp4`,
   }
-  // {
-  //   title: "Comment verser sa taxe simplement via Soltéa ?",
-  //   guest: "Expert en financement de l'alternance",
-  //   link: "https://spotify.com/podcast-episode-2",
-  // },
-  // {
-  //   title: "L’impact de la taxe : témoignages d’étudiants",
-  //   guest: "Étudiants bénéficiaires de la taxe",
-  //   link: "https://spotify.com/podcast-episode-3",
-  // }
 ];
 
 const Podcast = () => {
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
       <section className="relative h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
@@ -49,7 +57,6 @@ const Podcast = () => {
         </div>
       </section>
 
-      {/* Episodes Section */}
       <section className="py-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <motion.div
@@ -89,24 +96,6 @@ const Podcast = () => {
           </div>
         </div>
       </section>
-
-      {/* Plateformes Section */}
-      {/* <section className="py-16 bg-paris-gray">
-        <div className="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="mb-4 text-3xl font-bold">Écoutez-nous sur vos plateformes préférées</h2>
-            <div className="flex justify-center mt-6 space-x-6">
-              <a href="#" className="text-paris-red hover:text-red-700"><Headphones size={40} /></a>
-              <a href="#" className="text-paris-red hover:text-red-700"><Mic size={40} /></a>
-              <a href="#" className="text-paris-red hover:text-red-700"><Share size={40} /></a>
-            </div>
-          </motion.div>
-        </div>
-      </section> */}
     </div>
   );
 };
