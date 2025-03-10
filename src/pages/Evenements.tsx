@@ -34,7 +34,7 @@ const Evenements = () => {
       <section className="relative h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80"
+            src="https://media.istockphoto.com/id/1486287149/fr/photo/groupe-de-participants-daffaires-asiatiques-multiraciaux-conversation-informelle-apr%C3%A8s-un.webp?a=1&b=1&s=612x612&w=0&k=20&c=-vo5KH4q9eDWRNeqR215jyXsxQiZYFVihpNWLSgWLeQ="
             alt="Événements"
             className="object-cover w-full h-full"
           />

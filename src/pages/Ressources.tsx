@@ -37,7 +37,7 @@ const Ressources = () => {
       <section className="relative h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&q=80"
+            src="https://images.unsplash.com/photo-1699347914988-c61ec13c99c5?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Ressources"
             className="object-cover w-full h-full"
           />
