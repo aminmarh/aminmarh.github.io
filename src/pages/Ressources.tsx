@@ -7,27 +7,27 @@ const resources = [
   {
     title: "Guide complet de la taxe d’apprentissage",
     description: "Téléchargez notre guide détaillé pour tout comprendre sur le versement de la taxe.",
-    link: "/resources/guide.pdf",
+    link: `${import.meta.env.BASE_URL}lien/outer_page.pdf`,
     icon: FileText,
   },
   {
-    title: "Tutoriel vidéo : Comment verser sur Soltéa ?",
-    description: "Regardez notre tutoriel pas à pas pour effectuer votre versement facilement.",
-    link: "/resources/video",
-    icon: PlayCircle,
+    title: "Challenge étudiant",
+    description: "Regardez notre challenge étudiant pas à pas pour valoriser la taxe.",
+    link: `${import.meta.env.BASE_URL}lien/challenge_etudiant.png`,
+    icon: BookOpen,
   },
   {
     title: "Calendrier des échéances",
     description: "Consultez toutes les dates clés pour ne rien manquer.",
-    link: "/resources/calendar",
-    icon: BookOpen,
+    link: `${import.meta.env.BASE_URL}lien/planning.png`,
+    icon: FileText,
   },
-  {
-    title: "Documents utiles",
-    description: "Accédez à tous les documents nécessaires au processus de versement.",
-    link: "/resources/documents",
-    icon: Download,
-  }
+  // {
+  //   title: "Documents utiles",
+  //   description: "Accédez à tous les documents nécessaires au processus de versement.",
+  //   link: "/resources/documents",
+  //   icon: Download,
+  // }
 ];
 
 const Ressources = () => {
@@ -85,12 +85,14 @@ const Ressources = () => {
                 <resource.icon className="w-12 h-12 mb-4 text-paris-red" />
                 <h3 className="mb-2 text-xl font-semibold">{resource.title}</h3>
                 <p className="mb-4 text-gray-600">{resource.description}</p>
-                <Link
-                  to={resource.link}
+                <a
+                  href={resource.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-medium text-paris-red hover:text-red-700"
                 >
                   Accéder
-                </Link>
+                </a>
               </motion.div>
             ))}
           </div>
