@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center flex-shrink-0">
               <img
                 className="w-auto h-12"
-                src="https://u-paris.fr/wp-content/uploads/2022/09/UP_logo_rgb_dark.png"
+                src="https://math-info.u-paris.fr/wp-content/uploads/sites/8/2022/03/UniversiteParisCite_Mathe%E2%95%A0%C3%BCmatiques-et-informatique.jpg"
                 alt="Apprentis'Cité"
               />
             </Link>

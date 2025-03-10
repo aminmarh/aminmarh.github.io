@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <img
               className="w-auto h-12"
-              src="https://u-paris.fr/wp-content/uploads/2022/09/UP_logo_rgb_light.png"
+              src="https://math-info.u-paris.fr/wp-content/uploads/sites/8/2022/03/UniversiteParisCite_Mathe%E2%95%A0%C3%BCmatiques-et-informatique.jpg"
               alt="Apprentis'Cité"
             />
             <p className="mt-4 text-sm text-gray-300">
