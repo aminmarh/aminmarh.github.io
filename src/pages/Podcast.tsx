@@ -5,20 +5,20 @@ import { Link } from 'react-router-dom';
 
 const episodes = [
   {
-    title: "Qu’est-ce que la taxe d’apprentissage et pourquoi est-elle essentielle ?",
+    title: "Ep 1 - Qu’est-ce que la taxe d’apprentissage et pourquoi est-elle essentielle ?",
     guest: "Responsable du service taxe d’apprentissage",
-    link: "https://spotify.com/podcast-episode-1",
-  },
-  {
-    title: "Comment verser sa taxe simplement via Soltéa ?",
-    guest: "Expert en financement de l'alternance",
-    link: "https://spotify.com/podcast-episode-2",
-  },
-  {
-    title: "L’impact de la taxe : témoignages d’étudiants",
-    guest: "Étudiants bénéficiaires de la taxe",
-    link: "https://spotify.com/podcast-episode-3",
+    link: "../../public/videos/Podcast_Jingle_Cover.mp4",
   }
+  // {
+  //   title: "Comment verser sa taxe simplement via Soltéa ?",
+  //   guest: "Expert en financement de l'alternance",
+  //   link: "https://spotify.com/podcast-episode-2",
+  // },
+  // {
+  //   title: "L’impact de la taxe : témoignages d’étudiants",
+  //   guest: "Étudiants bénéficiaires de la taxe",
+  //   link: "https://spotify.com/podcast-episode-3",
+  // }
 ];
 
 const Podcast = () => {
@@ -91,7 +91,7 @@ const Podcast = () => {
       </section>
 
       {/* Plateformes Section */}
-      <section className="py-16 bg-paris-gray">
+      {/* <section className="py-16 bg-paris-gray">
         <div className="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -106,7 +106,7 @@ const Podcast = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

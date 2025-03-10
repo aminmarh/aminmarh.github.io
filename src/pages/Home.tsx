@@ -81,24 +81,26 @@ const Home = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-8 md:flex-row">
             <div className="md:w-1/2">
-              <h2 className="mb-6 text-3xl font-bold">Notre dernier podcast</h2>
+              <h2 className="mb-6 text-3xl font-bold">Notre premeier podcast</h2>
               <h3 className="mb-4 text-xl font-semibold text-paris-red">
-                "L'alternance : un tremplin vers l'emploi"
+                "Ep 1 - Qu’est-ce que la taxe d’apprentissage et pourquoi est-elle essentielle ?"
               </h3>
               <p className="mb-6 text-gray-600">
                 Découvrez les témoignages inspirants d'anciens alternants et d'entreprises
                 partenaires qui partagent leur expérience et leur vision de l'alternance.
               </p>
-              <Link
-                to="/podcast"
+              <a
+                href="../../public/videos/Podcast_Jingle_Cover.mp4"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center font-medium text-paris-red hover:text-red-700"
               >
                 Écouter l'épisode <ArrowRight size={20} className="ml-2" />
-              </Link>
+              </a>
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80"
+                src="../../public/images/Podcast1.png"
                 alt="Podcast recording"
                 className="w-full rounded-lg shadow-lg"
               />
