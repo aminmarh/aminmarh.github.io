@@ -6,7 +6,7 @@ const episodes = [
   {
     title: "Ep 1 - Qu’est-ce que la taxe d’apprentissage et pourquoi est-elle essentielle ?",
     guest: "Responsable du service taxe d’apprentissage",
-    link: `${import.meta.env.BASE_URL}videos/Podcast_Ep1.mp4`,
+    link: `${import.meta.env.BASE_URL}videos/Podcast_Jingle_Cover.mp4`,
   },
   {
     title: "Ep 2 - Le parcours d’un étudiant en alternance : challenges et réussites",

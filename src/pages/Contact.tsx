@@ -68,7 +68,7 @@ const Contact = () => {
               <MapPin className="w-12 h-12 mx-auto mb-4 text-paris-red" />
               <h3 className="mb-2 text-xl font-semibold">Adresse</h3>
               <p className="text-gray-600">Université Paris Cité</p>
-              <p className="text-gray-600">85 Boulevard Saint-Germain, 75006 Paris</p>
+              <p className="text-gray-600">45 Rue des Saints Pères, 75006 Paris</p>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-lg">
               <Phone className="w-12 h-12 mx-auto mb-4 text-paris-red" />

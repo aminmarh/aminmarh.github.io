@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-semibold">Contact</h3>
             <ul className="space-y-2 text-gray-300">
               <li>Université Paris Cité</li>
-              <li>85 Boulevard Saint-Germain</li>
+              <li>45 Rue des Saints Pères</li>
               <li>75006 Paris</li>
               <li>01 23 45 67 89</li>
             </ul>
@@ -41,10 +41,10 @@ const Footer = () => {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Suivez-nous</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white"><Facebook size={24} /></a>
-              <a href="#" className="text-gray-300 hover:text-white"><Twitter size={24} /></a>
-              <a href="#" className="text-gray-300 hover:text-white"><Linkedin size={24} /></a>
-              <a href="#" className="text-gray-300 hover:text-white"><Instagram size={24} /></a>
+              <a href="https://www.facebook.com/univpariscite/" className="text-gray-300 hover:text-white"><Facebook size={24} /></a>
+              <a href="https://twitter.com/univ_paris_cite" className="text-gray-300 hover:text-white"><Twitter size={24} /></a>
+              <a href="https://www.linkedin.com/school/universit%C3%A9-paris-cit%C3%A9/posts/?feedView=all" className="text-gray-300 hover:text-white"><Linkedin size={24} /></a>
+              <a href="https://www.instagram.com/univ_paris_cite/" className="text-gray-300 hover:text-white"><Instagram size={24} /></a>
             </div>
           </div>
         </div>

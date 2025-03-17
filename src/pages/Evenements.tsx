@@ -9,21 +9,18 @@ const events = [
     date: "15 avril 2025",
     location: "Université Paris Cité - Amphi 3",
     description: "Un événement pour renforcer les liens entre le monde académique et professionnel.",
-    link: "/events/univ-entreprises",
   },
   {
     title: "Webinaire : Comment verser sa taxe via Soltéa ?",
     date: "27 mai 2025",
     location: "En ligne",
     description: "Une session interactive pour comprendre le versement de la taxe d’apprentissage.",
-    link: "/events/webinaire-soltea",
   },
   {
     title: "Forum Alternance & Taxe d’Apprentissage",
     date: "6 septembre 2025",
     location: "Université Paris Cité - Hall principal",
     description: "Découvrez les opportunités de l’alternance et les entreprises engagées.",
-    link: "/events/forum-alternance",
   }
 ];
 
@@ -84,12 +81,6 @@ const Evenements = () => {
                 <p className="flex items-center gap-2 text-gray-600"><MapPin size={18} /> {event.location}</p>
                 <p className="flex items-center gap-2 text-gray-600"><Users size={18} /> {event.date}</p>
                 <p className="mt-2 text-gray-600">{event.description}</p>
-                <Link
-                  to={event.link}
-                  className="inline-flex items-center gap-2 mt-4 font-medium text-paris-red hover:text-red-700"
-                >
-                  En savoir plus
-                </Link>
               </motion.div>
             ))}
           </div>

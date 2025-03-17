@@ -22,27 +22,6 @@ const steps = [
   }
 ];
 
-const resources = [
-  {
-    icon: FileText,
-    title: "Guide Complet",
-    description: "Téléchargez notre guide détaillé pour tout savoir sur la taxe d'apprentissage.",
-    link: "/resources/guide.pdf"
-  },
-  {
-    icon: PlayCircle,
-    title: "Tutoriel Vidéo",
-    description: "Regardez notre vidéo explicative sur le versement via Soltéa.",
-    link: "/resources/video"
-  },
-  {
-    icon: Calendar,
-    title: "Calendrier des échéances",
-    description: "Ne ratez aucune date importante pour le versement.",
-    link: "/resources/calendar"
-  }
-];
-
 const VerserTaxe = () => {
   return (
     <div className="flex flex-col">
@@ -108,45 +87,6 @@ const VerserTaxe = () => {
                 </div>
                 <h3 className="mt-2 mb-2 text-xl font-semibold">{step.title}</h3>
                 <p className="text-gray-600">{step.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Resources Section */}
-      <section className="py-16 bg-paris-gray">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="mb-12 text-center"
-          >
-            <h2 className="mb-4 text-3xl font-bold">Ressources utiles</h2>
-            <p className="max-w-3xl mx-auto text-gray-600">
-              Consultez nos guides et tutoriels pour vous accompagner dans le versement.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {resources.map((resource, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="p-6 bg-white rounded-lg shadow-lg"
-              >
-                <resource.icon className="w-12 h-12 mb-4 text-paris-red" />
-                <h3 className="mb-2 text-xl font-semibold">{resource.title}</h3>
-                <p className="mb-4 text-gray-600">{resource.description}</p>
-                <Link
-                  to={resource.link}
-                  className="inline-flex items-center gap-2 font-medium text-paris-red hover:text-red-700"
-                >
-                  Accéder
-                </Link>
               </motion.div>
             ))}
           </div>
